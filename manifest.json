@@ -1,14 +1,19 @@
 {
-  "manifest_version": 2,
+	"manifest_version": 2,
 
-  "name": "GoPosmotrim Chrome Extension",
-  "version": "0.9",
-  "description": "GoPosmotrim button for YouTube UI",
+	"name": "GoPosmotrim Chrome Extension",
+	"version": "0.9",
+	"description": "GoPosmotrim button for YouTube UI",
 
-  "content_scripts": [{
-    "css": ["styles.css"],
-    "js": ["main.js"],
-    "matches": [ "https://*/*" ]
-  }]
+	"content_scripts": [{
+		"css": ["styles.css"],
+		"js": ["main.js"],
+		"matches": [ "https://*/*" ]
+	}],
 
+	"icons": { 
+		"16": "icon-270.png",
+		"48": "icon-270.png",
+		"128": "icon-270.png"
+	}
 }
