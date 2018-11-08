@@ -1,5 +1,4 @@
 const rightControls = document.getElementsByClassName("ytp-right-controls");
-alert(rightControls.length);
 if(rightControls.length > 0){	
 
 	const btn = document.createElement("button");
