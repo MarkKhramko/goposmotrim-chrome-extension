@@ -1,0 +1,11 @@
+.goposmotrim-button{
+	float: left;
+	height: 36px;
+}
+
+.goposmotrim-button-content{
+	display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 1.5em;
+}

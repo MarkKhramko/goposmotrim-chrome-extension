@@ -1,1 +1,1 @@
-# goposmotrim-chrome-extension
+# GoPosmotrim Chrome Extension
