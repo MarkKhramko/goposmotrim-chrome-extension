@@ -32,6 +32,8 @@ chrome.extension.onMessage.addListener(function(request, sender, response) {
 	if (request.type === 'tabUpdate') {
 		setTimeout(function(){
 			setButton();
-		}, 200);
+		}, 2000);
 	}
 });
+
+setButton();
